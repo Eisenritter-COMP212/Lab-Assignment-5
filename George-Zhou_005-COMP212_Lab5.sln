@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeorgeZhou_Exercise1", "Geo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeorgeZhou_BaseballExample", "GeorgeZhou_BaseballExample\GeorgeZhou_BaseballExample.csproj", "{5618D586-4E1C-45E1-9276-7929E6AF832C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeorgeZhou_Exercise2", "GeorgeZhou_Exercise2\GeorgeZhou_Exercise2.csproj", "{149E0CD3-6E17-4B4D-846D-607B1A1F4473}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5618D586-4E1C-45E1-9276-7929E6AF832C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5618D586-4E1C-45E1-9276-7929E6AF832C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5618D586-4E1C-45E1-9276-7929E6AF832C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{149E0CD3-6E17-4B4D-846D-607B1A1F4473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{149E0CD3-6E17-4B4D-846D-607B1A1F4473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{149E0CD3-6E17-4B4D-846D-607B1A1F4473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{149E0CD3-6E17-4B4D-846D-607B1A1F4473}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

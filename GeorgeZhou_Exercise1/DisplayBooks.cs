@@ -19,6 +19,7 @@ namespace GeorgeZhou_Exercise1
             InitializeComponent();
         }
 
+        // set dbcontext
         private GeorgeZhou_BooksExample.BooksEntities dbcontext =
             new GeorgeZhou_BooksExample.BooksEntities();
 
