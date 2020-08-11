@@ -79,7 +79,7 @@
             this.authorBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.authorBindingNavigator.Name = "authorBindingNavigator";
             this.authorBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.authorBindingNavigator.Size = new System.Drawing.Size(876, 38);
+            this.authorBindingNavigator.Size = new System.Drawing.Size(1727, 33);
             this.authorBindingNavigator.TabIndex = 0;
             this.authorBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -89,7 +89,7 @@
             this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
             this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(34, 33);
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(34, 28);
             this.bindingNavigatorAddNewItem.Text = "Add new";
             // 
             // authorBindingSource
@@ -189,11 +189,11 @@
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 38);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 33);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(876, 637);
+            this.dataGridView1.Size = new System.Drawing.Size(1727, 637);
             this.dataGridView1.TabIndex = 2;
             // 
             // tbxOutput
@@ -204,7 +204,7 @@
             this.tbxOutput.Name = "tbxOutput";
             this.tbxOutput.ReadOnly = true;
             this.tbxOutput.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tbxOutput.Size = new System.Drawing.Size(876, 630);
+            this.tbxOutput.Size = new System.Drawing.Size(1727, 705);
             this.tbxOutput.TabIndex = 3;
             // 
             // DisplayBooks
@@ -212,7 +212,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(876, 1307);
+            this.ClientSize = new System.Drawing.Size(1727, 1764);
             this.Controls.Add(this.tbxOutput);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.authorBindingNavigator);

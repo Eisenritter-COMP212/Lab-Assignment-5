@@ -6,6 +6,7 @@ using System.Data;
 using System.Data.Entity;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -44,7 +45,14 @@ namespace GeorgeZhou_Exercise2
 
             // Populate datagrid with the search query result
             playerDataGridView.DataSource = playerSearch.ToList();
+
+            // Validation
+            if (playerDataGridView.RowCount == 0)
+            {
+                MessageBox.Show("No data found","Data not found",MessageBoxButtons.OKCancel,MessageBoxIcon.Information);
+            }
         }
+
 
         private void btnReset_Click(object sender, EventArgs e)
         {
